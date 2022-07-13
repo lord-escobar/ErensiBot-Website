@@ -4,8 +4,10 @@
 
 ❕Bu altyapı tamamen bir demo kopyasıdır. Orjinal sahibi ErensiBot ekibidir.
 
-📯 Altyapı parayla MKH#0001 tarafından kopyalatılmıştır.
+📯 Altyapı parayla **MKH#0001** tarafından kopyalatılmıştır.
 
 ⭐ Yıldız ekleyerek bize destek olabilirsiniz.
 
 🎨 Telif hakkı sorunlarıyla karşılaşmamak için "designed by castial" kısmını silmeniz önermeyiz.
+
+[Orjinal Websitesine Buraya Tıklarak Gidebilirsiniz.](https://eren.si)
