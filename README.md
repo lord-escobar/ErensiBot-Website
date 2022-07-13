@@ -10,4 +10,11 @@
 
 🎨 Telif hakkı sorunlarıyla karşılaşmamak için "designed by castial" kısmını silmeniz önermeyiz.
 
+**İçindekiler:**
+- Ana Sayfa
+- Komutlar Sayfası
+- Premium Sayfası
+- CSS'ler
+- Görseller (Bir Çoğu)
+
 [Orjinal Websitesine Buraya Tıklarak Gidebilirsiniz.](https://eren.si)
