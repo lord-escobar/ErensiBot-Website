@@ -8,7 +8,7 @@
 
 ⭐ Yıldız vererek bize destek olabilirsiniz.
 
-🎨 Telif hakkı sorunlarıyla karşılaşmamak için "designed by castial" kısmını silmeniz önermeyiz.
+🎨 Telif hakkı sorunlarıyla karşılaşmamak için "designed by castial" kısmını silmenizi önermeyiz.
 
 **İçindekiler:**
 - Ana Sayfa
