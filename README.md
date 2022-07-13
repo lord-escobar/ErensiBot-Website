@@ -12,7 +12,6 @@
 
 **İçindekiler:**
 - Ana Sayfa
-- Komutlar Sayfası
 - Premium Sayfası
 - CSS'ler
 - Görseller (Bir Çoğu)
