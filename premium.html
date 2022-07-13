@@ -1,0 +1,485 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+
+  <meta name="description" content="ErensiBOT Premium Üyelik alarak Discord sunucunuzda Premium bir keyif yaşayın!">
+  <meta name="keywords"
+    content="discord bot premium, discord erensibot premium, erensibot premium, erensi bot premium, erensibot emerald üyelik, erensi bot emerald üyelik, erensibot gold üyelik, erensi bot gold üyelik, erensibot üyelik">
+  <meta name="twitter:card" />
+  <meta name="twitter:title" content="ErensiBOT" />
+  <meta name="twitter:description"
+    content="Sunucunun daha Güvenli, Eğlenceli ve Düzenli olması için tam aradığın bot! Güvenlik, Emoji Rol, Eğlence, Moderasyon ve daha fazlası!" />
+  <meta name="twitter:image"
+    content="https://cdn.discordapp.com/avatars/689766089567109158/ee8707825fe359a25ae2921c436a23bf.png?size=512" />
+  <meta property="og:title" content="ErensiBOT Premium">
+  <meta property="og:description"
+    content="Sunucunun daha Güvenli, Eğlenceli ve Düzenli olması için tam aradığın bot! Güvenlik, Emoji Rol, Eğlence, Moderasyon ve daha fazlası!">
+  <meta property="og:image"
+    content="https://cdn.discordapp.com/avatars/689766089567109158/ee8707825fe359a25ae2921c436a23bf.png?size=512">
+  <meta name="theme-color" content="#bf1818">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ErensiBOT Premium</title>
+  <link href="https://unpkg.com/tailwindcss@%5E2/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
+
+  <!-- ================= Favicons ================== -->
+  <!-- Standard -->
+  <link rel="shortcut icon" type="image/png" sizes="200x200" href="/favicon.ico">
+  <link rel="icon" type="image/png" href="/assets/favicon.ico">
+  <!-- Retina iPad Touch Icon-->
+  <link rel="apple-touch-icon" type="image/png" sizes="144x144" href="/favicon.ico">
+  <!-- Retina iPhone Touch Icon-->
+  <link rel="apple-touch-icon" type="image/png" sizes="114x114" href="/favicon.ico">
+  <!-- Standard iPad Touch Icon-->
+  <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="/favicon.ico">
+  <!-- Standard iPhone Touch Icon-->
+  <link rel="apple-touch-icon" type="image/png" sizes="57x57" href="/favicon.ico">
+
+</head>
+
+<body>
+
+  <section class="flex items-center text-gray-400 bg-gray-900 min-h-screen body-font" x-data="{active: 0}">
+    <div class="container px-5 py-8 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">ErensiBOT Premium</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">ErensiBOT Üyelik alarak birbirinden güzel özelliklere
+          sahip olabilirsiniz.</p>
+        <div class="flex mx-auto border-2 border-red-700 rounded overflow-hidden mt-6">
+          <button class="py-1 px-4 text-white focus:outline-none hover:bg-red-600" x-on:click.prevent="active = 0"
+            x-bind:class="{'bg-red-700': active === 0}">Aylık</button>
+          <button class="py-1 px-4 text-white focus:outline-none hover:bg-red-600" x-on:click.prevent="active = 1"
+            x-bind:class="{'bg-red-700': active === 1}">Yıllık</button>
+        </div>
+      </div>
+
+      <!-- AYLIK -->
+
+      <div class="flex justify-center flex-wrap -m-4" x-show="active === 0">
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+          <div class="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
+            <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">VARSAYILAN</h2>
+            <h1 class="text-5xl text-white pb-4 mb-4 border-b border-gray-800 leading-none">Ücretsiz</h1>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Botu desteklemiş olursunuz
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Sadece ücretsiz özellikler
+            </p>
+            <p class="flex items-center text-gray-400 mb-6">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Sınırlı emojirol ve otocevap
+            </p>
+            <a href="/ekle"
+              class="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded transition duration-200 ease-in-out">Davet
+              et
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+            <p class="text-xs text-gray-400 mt-3">Botu kullanan tüm kullanıcılarda varsayılan olarak bulunur.</p>
+          </div>
+        </div>
+
+
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+          <div class="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
+            <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">GOLD</h2>
+            <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
+              <span>₺7</span>
+              <span class="text-lg ml-1 font-normal text-gray-400">/ay</span>
+            </h1>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Botu desteklemiş olursunuz
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Ücretsiz özellikler dahil
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Özel otorol ve sayaç mesajı
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Özel karşılama mesajları
+            </p>
+
+            <p class="flex items-center text-gray-400 mb-6">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Destek sunucumuzda özel rol
+            </p>
+
+            <a href="https://discord.gg/j7GQpH3uCs"
+              class="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded transition duration-200 ease-in-out">Satın
+              Al
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+
+            <p class="text-xs text-gray-400 mt-3">Destek sunucumuzdan bot sahibiyle iletişim kurabilirsiniz.</p>
+          </div>
+        </div>
+
+
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+          <div class="h-full p-6 rounded-lg border-2 border-red-700 flex flex-col relative overflow-hidden">
+            <span
+              class="bg-red-700 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPÜLER</span>
+            <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">EMERALD</h2>
+            <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
+              <span>₺10</span>
+              <span class="text-lg ml-1 font-normal text-gray-400">/ay</span>
+            </h1>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Botu desteklemiş olursunuz
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Tüm özelliklere erişim
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Oysuz komut kullanabilme
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Tüm Gold paketi özellikleri
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Sınırsız EmojiRol ekleme
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Sınırsız OtoCevap ekleme
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Beta sistemlere ilk erişim
+            </p>
+            <p class="flex items-center text-gray-400 mb-6">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Destek sunucumuzda özel rol
+            </p>
+            <a href="https://discord.gg/j7GQpH3uCs"
+              class="flex items-center mt-auto text-white bg-red-700 border-0 py-2 px-4 w-full focus:outline-none hover:bg-red-800 transition rounded duration-200 ease-in-out">Satın
+              Al
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+            <p class="text-xs text-gray-400 mt-3">Destek sunucumuzdan bot sahibiyle iletişim kurabilirsiniz.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- YILLIK -->
+
+      <div class="flex justify-center flex-wrap -m-4" x-show="active === 1">
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+          <div class="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
+            <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">VARSAYILAN</h2>
+            <h1 class="text-5xl text-white pb-4 mb-4 border-b border-gray-800 leading-none">Ücretsiz</h1>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Botu desteklemiş olursunuz
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Sadece ücretsiz özellikler
+            </p>
+            <p class="flex items-center text-gray-400 mb-6">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Sınırlı emojirol ve otocevap
+            </p>
+            <a href="/ekle"
+              class="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded transition duration-200 ease-in-out">Davet
+              et
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+            <p class="text-xs text-gray-400 mt-3">Botu kullanan tüm kullanıcılarda varsayılan olarak bulunur.</p>
+          </div>
+        </div>
+
+
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+          <div class="h-full p-6 rounded-lg border-2 border-red-700 flex flex-col relative overflow-hidden">
+            <span class="bg-red-700 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">%16
+              İNDİRİM</span>
+            <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">GOLD</h2>
+            <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
+              <span>₺69</span>
+              <span class="text-lg ml-1 font-normal text-gray-400">/yıl</span>
+            </h1>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Botu desteklemiş olursunuz
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Ücretsiz özellikler dahil
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Özel otorol ve sayaç mesajı
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Özel karşılama mesajları
+            </p>
+
+            <p class="flex items-center text-gray-400 mb-6">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Destek sunucumuzda özel rol
+            </p>
+
+            <a href="https://discord.gg/j7GQpH3uCs"
+              class="flex items-center mt-auto text-white bg-red-700 border-0 py-2 px-4 w-full focus:outline-none hover:bg-red-800 rounded transition duration-200 ease-in-out">Satın
+              Al
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+            <p class="text-xs text-gray-400 mt-3">Destek sunucumuzdan bot sahibiyle iletişim kurabilirsiniz.</p>
+          </div>
+        </div>
+
+
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+          <div class="h-full p-6 rounded-lg border-2 border-red-700 flex flex-col relative overflow-hidden">
+            <span class="bg-red-700 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">%16
+              İNDİRİM</span>
+            <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">EMERALD</h2>
+            <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
+              <span>₺99</span>
+              <span class="text-lg ml-1 font-normal text-gray-400">/yıl</span>
+            </h1>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Botu desteklemiş olursunuz
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Tüm özelliklere erişim
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Oysuz komut kullanabilme
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Tüm Gold paketi özellikleri
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Sınırsız EmojiRol ekleme
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Sınırsız OtoCevap ekleme
+            </p>
+            <p class="flex items-center text-gray-400 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Beta sistemlere ilk erişim
+            </p>
+            <p class="flex items-center text-gray-400 mb-6">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Destek sunucumuzda özel rol
+            </p>
+            <a href="https://discord.gg/j7GQpH3uCs"
+              class="flex items-center mt-auto text-white bg-red-700 border-0 py-2 px-4 w-full focus:outline-none hover:bg-red-800 rounded transition duration-200 ease-in-out">Satın
+              Al
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+            <p class="text-xs text-gray-400 mt-3">Destek sunucumuzdan bot sahibiyle iletişim kurabilirsiniz.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
