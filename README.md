@@ -7,3 +7,5 @@
 📯 Altyapı parayla MKH#0001 tarafından kopyalatılmıştır.
 
 ⭐ Yıldız ekleyerek bize destek olabilirsiniz.
+
+🎨 Telif hakkı sorunlarıyla karşılaşmamak için "designed by castial" kısmını silmeniz önermeyiz.
